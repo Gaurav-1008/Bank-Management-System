@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20" alignment="CENTER" stylesheets="@../assets/styles.css">
+    <Label fx:id="adminLabel" text="Welcome, Admin" styleClass="header"/>
+    <Button text="Manage Users" />
+    <Button text="View Transactions" />
+</VBox>

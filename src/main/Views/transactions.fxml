@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20" alignment="CENTER" stylesheets="@../assets/styles.css">
+    <Label text="Transactions" styleClass="header"/>
+    <TextField fx:id="amountField" promptText="Enter Amount"/>
+    <Button text="Deposit" onAction="#handleDeposit"/>
+    <Button text="Withdraw" onAction="#handleWithdraw"/>
+    <Label fx:id="messageLabel"/>
+</VBox>

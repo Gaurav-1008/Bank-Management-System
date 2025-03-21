@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="20" alignment="CENTER" stylesheets="@../assets/styles.css">
+    <Label text="User Dashboard" styleClass="header"/>
+    <Label fx:id="balanceLabel" text="Balance: $0.00"/>
+    <Button text="Deposit" onAction="#handleDeposit"/>
+    <Button text="Withdraw" onAction="#handleWithdraw"/>
+</VBox>
